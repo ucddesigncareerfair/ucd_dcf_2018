@@ -9,28 +9,25 @@ body {
 	margin: 0;
 }
 
-img {
-    border-radius: 50%;
-}
-
 .imgbanner {
 
 }
 
 .companylogo {
+  border-radius: 50%;
 
 }
 
 .imgalumni {
-
+  border-radius: 50%;
 }
 
 .studentalumni{
-
+  border-radius: 50%;
 }
 
 .shopimg {
-
+  border-radius: 50%;
 }
 
 nav ul {
