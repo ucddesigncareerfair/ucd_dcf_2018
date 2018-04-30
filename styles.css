@@ -8,3 +8,29 @@ body {
 	line-height: 1.875;
 	margin: 0;
 }
+
+.imgbanner {
+
+}
+
+.companylogo {
+  border-radius: 50%;
+
+}
+
+.imgalumni {
+  border-radius: 50%;
+}
+
+.studentalumni{
+  border-radius: 50%;
+}
+
+.shopimg {
+  border-radius: 50%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
