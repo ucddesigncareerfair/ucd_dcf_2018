@@ -1,5 +1,5 @@
 body {
-	background-color: #fff;
+	background-color: white;
 	color: #000;
 	font-family: 'Proxima Nova', Georgia, sans-serif;
 	font-size: 18px;
@@ -13,21 +13,33 @@ body {
 
 }
 
+.wrapper {
+  width: 1336px
+
+}
 .companylogo {
   border-radius: 50%;
+  width: 100px;
+  height: 100px;
 
 }
 
 .imgalumni {
   border-radius: 50%;
+  width: 100px;
+	height: 100px;
 }
 
 .studentalumni{
   border-radius: 50%;
+  width: 100px;
+	height: 100px;
 }
 
 .shopimg {
   border-radius: 50%;
+  width: 100px;
+	height: 100px;
 }
 
 nav ul {
