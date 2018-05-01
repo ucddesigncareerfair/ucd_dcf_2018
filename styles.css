@@ -9,6 +9,15 @@ body {
 	margin: 0;
 }
 
+main {
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    clear: both;
+    background-color: #white;
+    color: #28316e;
+    border-radius: 5px;
+}
 .imgbanner {
 
 }
