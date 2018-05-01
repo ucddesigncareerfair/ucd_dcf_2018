@@ -42,20 +42,7 @@ body {
 	height: 300px;
 }
 
-nav {
-    max-width: 1336px;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    padding: 10px;
-}
-
-nav2 {
-    max-width: 1336px;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    padding: 10px;
+nav ul {
+  display: flex;
+  justify-content: space-between;
 }
