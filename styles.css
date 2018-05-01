@@ -19,27 +19,27 @@ body {
 }
 .companylogo {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
 
 }
 
 .imgalumni {
   border-radius: 50%;
-  width: 100px;
-	height: 100px;
+  width: 300px;
+	height: 300px;
 }
 
 .studentalumni{
   border-radius: 50%;
-  width: 100px;
-	height: 100px;
+  width: 300px;
+	height: 300px;
 }
 
 .shopimg {
   border-radius: 50%;
-  width: 100px;
-	height: 100px;
+  width: 300px;
+	height: 300px;
 }
 
 nav ul {
