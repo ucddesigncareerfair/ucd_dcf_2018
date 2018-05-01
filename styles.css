@@ -1,6 +1,6 @@
 body {
 	background-color: white;
-	color: #000;
+	color: #28316e;
 	font-family: 'Proxima Nova', Georgia, sans-serif;
 	font-size: 18px;
 	font-size: 1.8rem;
@@ -9,21 +9,15 @@ body {
 	margin: 0;
 }
 
-main {
-    margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    clear: both;
-    background-color: #white;
-    color: #28316e;
-    border-radius: 5px;
-}
 .imgbanner {
 
 }
 
 .wrapper {
-  width: 1336px
+	display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 
 }
 .companylogo {
@@ -51,9 +45,20 @@ main {
 	height: 300px;
 }
 
-nav ul {
+.nav ul {
   display: flex;
   justify-content: space-between;
+	margin-left:auto;
+	grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.nav2 ul {
+  display: flex;
+  justify-content: space-between;
+	margin-left:auto;
+	grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 footer {
@@ -61,4 +66,8 @@ footer {
     margin-bottom: 2%;
     text-align: center;
     font-size: .8rem;
+}
+
+ul {
+  list-style-type: none;
 }
