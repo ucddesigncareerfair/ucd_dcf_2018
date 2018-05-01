@@ -1,6 +1,6 @@
 body {
 	background-color: white;
-	color: #000;
+	color: #28316e;
 	font-family: 'Proxima Nova', Georgia, sans-serif;
 	font-size: 18px;
 	font-size: 1.8rem;
@@ -14,35 +14,60 @@ body {
 }
 
 .wrapper {
-  width: 1336px
+	display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
 
 }
 .companylogo {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
 
 }
 
 .imgalumni {
   border-radius: 50%;
-  width: 100px;
-	height: 100px;
+  width: 300px;
+	height: 300px;
 }
 
 .studentalumni{
   border-radius: 50%;
-  width: 100px;
-	height: 100px;
+  width: 300px;
+	height: 300px;
 }
 
 .shopimg {
   border-radius: 50%;
-  width: 100px;
-	height: 100px;
+  width: 300px;
+	height: 300px;
 }
 
-nav ul {
+.nav ul {
   display: flex;
   justify-content: space-between;
+	margin-left:auto;
+	grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.nav2 ul {
+  display: flex;
+  justify-content: space-between;
+	margin-left:auto;
+	grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+footer {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: .8rem;
+}
+
+ul {
+  list-style-type: none;
 }
